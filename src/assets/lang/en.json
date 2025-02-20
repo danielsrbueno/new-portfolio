@@ -1,0 +1,77 @@
+{
+    "greeting": {
+        "morning": "Good morning☕",
+        "afternoon": "Good afternoon 🍂",
+        "night": "Good night 🌌"
+    },
+    "welcome": "Welcome!",
+    "nav": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "intro": {
+        "title": "Your next fullstack",
+        "spantitle": "Developer", 
+        "subtitle": "Hello! I'm Daniel Bueno, I'm 17 years old and a fullstack developer"
+    },
+    "about": {
+        "title": "About me",
+        "paragraph": {
+            "text1": "My name is Daniel Bueno, and technology has been a passion since childhood. Developing and programming began in 2022, sparking a deep love for the field. This passion led to a constant pursuit of improvement. Consequently, the decision was made to apply for the Systems Development course at Etec Jaraguá, combining it with High School education. Fortunately, acceptance came with the honor of securing second place.",
+            "text2": "Currently in the 3rd year of high school at Etec Jaraguá, working on projects with ReactJS, NodeJS, NextJS, among other technologies, with a desire to explore new languages, technologies, and frameworks. Plans include applying for internship positions to gain professional experience, having no previous work in this field.",
+            "text3": "Learning new things to apply in my projects is something I enjoy, and part of my day is always dedicated to studying development independently. Besides technology, there's a love for weight training, biking, camping, listening to music, reading books, going to church, and seeing dividends deposited into my account."
+        },
+        "buttonlabel": "Technologies",
+        "tooltip": {
+            "studying": "Studying",
+            "intermediateknowledge": "Intermediate knowledge",
+            "solidknowledge": "Solid knowledge"
+        },
+        "imgalt": "Profile picture"
+    },
+    "projects": {
+        "title": "My projects",
+        "ds": {
+            "text": "See everything about the Systems Development course!",
+            "about": "Developed in partnership with two school friends, with the goal of promoting our course and increasing our visibility, this idea was suggested by a teacher, and we decided to take on the responsibility for the project. This was my first development project with ReactJS!"
+        },
+        "short": {
+            "text": "Know the content of the video without even opening it.",
+            "about": "Short Summary allows users to view a summary of the video without needing to watch it, using artificial intelligence to extract the text and create the summary. This was my first experience with Express, which taught me a lot about NodeJS."
+        },
+        "age": {
+            "text": "See your age precisely!",
+            "about": "The Age Calculator is a web application that allows users to calculate their age in years, months, and days. This project allowed me to learn a lot about date manipulation in JavaScript, as well as improve my skills with forms in HTML and CSS."
+        },
+        "ticket": {
+            "text": "Generate your Coding Conf event ticket!",
+            "about": "The Ticket Generator is a web application that allows users to generate their ticket for the Coding Conf (fictional) event. In this project, I learned form handling, data validation with Zod + React Hook Form, and automatically sending emails with EmailJs. I also deepened my knowledge of Next.js."
+
+        },
+        "notes": {
+            "text": "Make your daily notes!",
+            "about": "Notes is a web application that allows users to make daily notes, with the ability to save, edit, and delete them. This project allowed me to deepen my knowledge of Fullstack programming with Express.js and MongoDB."
+
+        },
+        "moreprojects": "More projects",
+        "fewerprojects": "Fewer projects"
+    },
+    "card": {
+        "seemore": "See more",
+        "imgalt": "Project icon",
+        "openwebsite": "Open site",
+        "repository": "Repository",
+        "close": "Close"
+    },
+    "contact": "Contact",
+    "month": {
+        "january": "January, 2025",
+        "june": "June, 2023",
+        "july": "July, 2023",
+        "november": "November, 2023",
+        "october-23": "October, 2023",
+        "october-24": "October, 2024"
+    }
+}
