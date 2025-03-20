@@ -29,7 +29,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className="w-7/12 h-24 left-12 top-1 px-12 rounded-full rounded-tl-none fixed flex items-center justify-between backdrop-blur-sm select-none z-40 dark:text-zinc-300 dark:bg-zinc-900/20 max-xl:w-9/12 max-lg:px-10 max-md:w-10/12 max-md:h-20 max-md:top-auto max-md:bottom-5 max-md:left-0 max-md:right-0 max-md:mx-auto max-md:rounded-full max-sm:h-16">
+    <nav className="w-7/12 h-24 bg-zinc-50/20 left-12 top-1 px-12 rounded-full rounded-tl-none fixed flex items-center justify-between backdrop-blur-3xl select-none z-40 dark:text-zinc-300 dark:bg-zinc-900/30 max-xl:w-9/12 max-lg:px-10 max-md:w-10/12 max-md:h-20 max-md:top-auto max-md:bottom-5 max-md:left-0 max-md:right-0 max-md:mx-auto max-md:rounded-full max-sm:h-16">
       <h1
       className={`${jetBrainsMono.className} font-extrabold my-gradient-radial max-sm:text-2xl max-lg:text-3xl lg:text-5xl max-md:hidden`}>
         &lt;Dan/&gt;
@@ -51,20 +51,21 @@ export default function Navbar() {
         </ul>
       }
       {isMobile &&
-        <ul className="w-full flex gap-10 items-center justify-center text-zinc-700 dark:text-zinc-300">
+        <ul className="w-full flex items-center justify-around text-zinc-700 dark:text-zinc-300">
           <Link href="/about">
-            <ContactRound className="w-8 h-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50" />
+            <ContactRound className="size-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50 max-[480px]:size-7" />
           </Link>
           <Link href="/projects">
-            <BriefcaseBusiness className="w-8 h-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50" />
+            <BriefcaseBusiness className="size-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50 max-[480px]:size-7" />
           </Link>
-          <Link href="/">
-            <House className="w-8 h-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50" />
+          <Link className="size-12 hover:scale-110 flex justify-center items-center bg-zinc-50 rounded-full" href="/">
+            <House className="size-9 relative text-zinc-800 cursor-pointer hover:text-zinc-950 dark:hover:text-zinc-950 max-[480px]:size-7" />
           </Link>
+          {/* deixa o icone da casa maior */}
           <Link href="/contact">
-            <PhoneCall className="w-7 h-7 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50" />
+            <PhoneCall className="size-7 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50 max-[480px]:size-6" />
           </Link>
-          <Settings2 className="w-8 h-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50" />
+          <Settings2 className="size-8 cursor-pointer hover:scale-110 hover:text-zinc-950 dark:hover:text-zinc-50 max-[480px]:size-7" />
           {/* <Notebook className="w-8 h-8" /> */}
         </ul>
       }

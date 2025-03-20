@@ -2,8 +2,6 @@
 
 @plugin "tailwindcss-animate";
 
-@custom-variant dark (&:is(.dark *));
-
 @theme inline {
   /* Configure your theme variables here */
   --font-display: "Inter", "sans-serif";
