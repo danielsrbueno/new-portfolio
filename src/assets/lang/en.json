@@ -1,8 +1,8 @@
 {
     "greeting": {
-        "morning": "Good morning☕",
-        "afternoon": "Good afternoon 🍂",
-        "night": "Good night 🌌"
+        "morning": "Good morning! ",
+        "afternoon": "Good afternoon! ",
+        "night": "Good night! "
     },
     "welcome": "Welcome!",
     "nav": {
@@ -19,9 +19,9 @@
     "about": {
         "title": "About me",
         "paragraph": {
-            "text1": "My name is Daniel Bueno, and technology has been a passion since childhood. Developing and programming began in 2022, sparking a deep love for the field. This passion led to a constant pursuit of improvement. Consequently, the decision was made to apply for the Systems Development course at Etec Jaraguá, combining it with High School education. Fortunately, acceptance came with the honor of securing second place.",
-            "text2": "Currently in the 3rd year of high school at Etec Jaraguá, working on projects with ReactJS, NodeJS, NextJS, among other technologies, with a desire to explore new languages, technologies, and frameworks. Plans include applying for internship positions to gain professional experience, having no previous work in this field.",
-            "text3": "Learning new things to apply in my projects is something I enjoy, and part of my day is always dedicated to studying development independently. Besides technology, there's a love for weight training, biking, camping, listening to music, reading books, going to church, and seeing dividends deposited into my account."
+            "text1": "My name is Daniel Bueno, and technology has been a passion of mine since childhood. I began developing and programming in 2022, which sparked a deep love for the field. Since then, I have been constantly striving to improve my skills. This passion led me to apply for the Systems Development course at Etec Jaraguá, alongside my high school education. Fortunately, I was accepted, achieving the honor of securing second place.",
+            "text2": "Currently, I am in my third year of high school at Etec Jaraguá. I work on projects using ReactJS, NodeJS, NextJS, among other technologies, and I am eager to explore new languages, tools, and frameworks. I plan to apply for internship positions to gain professional experience, as I have not yet worked in this field.",
+            "text3": "I enjoy learning new things to apply to my projects and always dedicate part of my day to studying development independently. Beyond technology, I have a passion for weight training, fighting Muay Thai, biking, camping, listening to music, going to church, and watching dividends being deposited into my account."
         },
         "buttonlabel": "Technologies",
         "tooltip": {
@@ -67,11 +67,17 @@
     },
     "contact": "Contact",
     "month": {
-        "january": "January, 2025",
-        "june": "June, 2023",
-        "july": "July, 2023",
-        "november": "November, 2023",
-        "october-23": "October, 2023",
-        "october-24": "October, 2024"
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
     }
 }

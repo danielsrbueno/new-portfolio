@@ -1,8 +1,8 @@
 {
     "greeting": {
-        "morning": "Bom dia ☕",
-        "afternoon": "Boa tarde 🍂",
-        "night": "Boa noite 🌌"
+        "morning": "Bom dia! ",
+        "afternoon": "Boa tarde! ",
+        "night": "Boa noite! "
     },
     "welcome": "Seja bem-vindo!",
     "nav": {
@@ -19,9 +19,9 @@
     "about": {
         "title": "Sobre mim",
         "paragraph": {
-            "text1": "Meu nome é Daniel Bueno, sou apaixonado por tecnologia desde pequeno. Comecei a desenvolver e programar em 2022, me apeguei totalmente pela programação, e desde então tenho buscado me aprimorar constantemente. Então me candidatei no processo seletivo para entrar na Etec Jaraguá no curso de Desenvolvimento de Sistemas com Ensino Médio, e felizmente fui aprovado em segundo lugar.",
-            "text2": "Atualmente estou no 3º ano do ensino médio na Etec Jaraguá, faço projetos com ReactJS, NodeJS, NextJS, dentre outras tecnologias, desejo explorar novas linguagens, tecnologias e frameworks. Pretendo aplicar para vagas de estágio para ganhar experiencia profissional, pois nunca trabalhei nessa área.",
-            "text3": "Gosto de aprender coisas novas para aplicar em meus projetos, sempre dedico uma parte do meu dia para estudar desenvolvimento sozinho. Além da tecnologia, amo treinar musculação, andar de bicicleta, acampar, escutar músicas, ler livros, ir à igreja e ver dividendos caindo na minha conta."
+            "text1": "Meu nome é Daniel Bueno. Sou apaixonado por tecnologia desde pequeno. Comecei a desenvolver e programar em 2022, me apaixonei completamente pela programação e, desde então, tenho buscado aprimorar me constantemente. Sendo assim, me candidatei ao processo seletivo para ingressar na Etec Jaraguá, no curso de Desenvolvimento de Sistemas com Ensino Médio, e, felizmente, fui aprovado em segundo lugar.",
+            "text2": "Atualmente, estou no 3º ano do ensino médio na Etec Jaraguá. Faço projetos com ReactJS, NodeJS, NextJS, dentre outras tecnologias, e desejo explorar novas linguagens, ferramentas e frameworks. Pretendo me candidatar a vagas de estágio para adquirir experiência profissional, pois ainda não trabalhei na área.",
+            "text3": "Gosto de aprender coisas novas para aplicar em meus projetos e sempre reservo uma parte do meu dia para estudar desenvolvimento por conta própria. Além da tecnologia, amo treinar musculação, lutar Muay Thai, andar de bicicleta, acampar, escutar música, ir à igreja e acompanhar meus dividendos caindo na conta."
         },
         "buttonlabel": "Tecnologias",
         "tooltip": {
@@ -65,11 +65,17 @@
     },
     "contact": "Contato",
     "month": {
-        "january": "Janeiro, 2025",
-        "june": "Junho, 2023",
-        "july": "Julho, 2023",
-        "november": "Novembro, 2023",
-        "october-23": "Outubro, 2023",
-        "october-24": "Outubro, 2024"
+        "january": "Janeiro",
+        "february": "Fevereiro",
+        "march": "Março",
+        "april": "Abril",
+        "may": "Maio",
+        "june": "Junho",
+        "july": "Julho",
+        "august": "Agosto",
+        "september": "Setembro",
+        "october": "Outubro",
+        "november": "Novembro",
+        "december": "Dezembro"
     }
 }
